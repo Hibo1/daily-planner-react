@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background: #eee;
+}
+
+/* HEADER */
+
+.header {
+  background: #f5ba13;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.header h1 {
+  margin: 0;
+  color: white;
+  font-weight: 500;
+}
+
+/* NOTE CARD */
+
+.note {
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  padding: 10px 15px;
+  width: 240px;
+  margin: 24px 32px;
+}
+
+.note h1 {
+  margin: 0 0 6px 0;
+  font-size: 1.1rem;
+}
+
+.note p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+/* FOOTER */
+
+.footer {
+  position: fixed;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  color: #999;
+  font-size: 0.8rem;
+}
